@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tsc -v"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/parsjoberg/configuring-typescript/issues"
   },
-  "homepage": "https://github.com/parsjoberg/configuring-typescript#readme"
+  "homepage": "https://github.com/parsjoberg/configuring-typescript#readme",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
 }
