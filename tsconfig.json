@@ -1,7 +1,14 @@
 {
+  "extends": "@tsconfig/recommended/tsconfig.json",
   "compilerOptions": {
     "removeComments": true,
-    "outFile": "app/index.js"
+    "lib": ["ES2018", "DOM"],
+    "outDir": "app"
   },
-  "include": ["src/**/*"]
+  "watchOptions": {
+    "excludeDirectories": ["app", "**/node_modules"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"],
+  
 }

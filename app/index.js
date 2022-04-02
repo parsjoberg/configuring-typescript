@@ -1,2 +1,3 @@
-var message = "A message";
+"use strict";
+const message = "A message changed";
 console.log(message);
